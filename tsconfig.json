@@ -1,0 +1,15 @@
+{
+	"compilerOptions": {
+		"module": "esnext",
+		"moduleResolution": "node",
+		"target": "esnext",
+		"skipLibCheck": true,
+		"declaration": true,
+		"outDir": "dist",
+		"types": [
+			"bun-types",
+			"@webgpu/types",
+		]
+	},
+	"exclude": ["test", "dist"]
+}
